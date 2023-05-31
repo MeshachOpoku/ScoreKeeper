@@ -1,0 +1,29 @@
+body{
+background-image: url("pic.png");
+background-repeat:no-repeat;
+/*background-size: cover;*/
+opacity: 100%;
+
+
+}
+.green{
+    color:green;
+}
+button{
+    border-radius: 25px;
+    ;
+}
+#reset{
+    border:5px solid yellow;
+    height:200%
+}
+#contain{
+   text-align:center;
+    align-items:center;
+    margin-left:30%;
+    margin-top:10%
+}
+
+html{
+    height:100%
+}

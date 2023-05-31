@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+    <meta charset="UTF-8">
+    <meta name="view-port" content="width=device-width,initial-scale=1">
+</head><script src="ScoreKeeper.js"></script>
+<link rel="stylesheet" href="ScoreKeeper.css">
+<body >
+<div id="contain">
+     
+    <h1> <strong>My Score Keeper</strong></h1>
+    <h3><strong>Score:</strong><span id="score1">0</span>to<span id="score2">0</span>
+    
+     <div>
+       <button type="submit"id="count1" onclick="player1()">Player1</button>
+       <button type="submit"id="count2"onclick="player2()">Player2</button>
+       <button id="reset"onclick="reset()">Reset</button>  
+    </div>
+    <div>
+       <input type="number" id="limit" value="5">
+       <h3>The Winner is:<span id="showin"></span></h3>
+       <button id="Winner"onclick="Windecider()">check Winner</button>
+    </div>
+</div> 
+</body>
+</html>  
